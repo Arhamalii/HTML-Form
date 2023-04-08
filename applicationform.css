@@ -1,0 +1,97 @@
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+/* all page margin 0.1 cm  */
+
+*{
+    margin-left:0.1cm;
+   
+}
+h3{
+        color:white;
+        background-color: rgb(43, 88, 88);
+        background-color:100vw;
+        
+
+
+    }
+    th,td{
+        border-color:#238686;
+        border-style: solid;
+        background-color: white;
+        border-collapse: collapse;
+    }
+
+
+    .table1{
+        border-color:#238686;
+        border-style: solid;
+        width:950px;
+        height: 55px;
+        background-color: white;
+        border-collapse: collapse;
+
+    }
+    .table2{
+        border-color:#238686;
+        border-style: solid;
+        width:950px;
+        background-color: white;
+        border-collapse: collapse;
+    }
+    
+
+         /*Styling Inputs located Inside Table  */
+
+
+   .t_input_name{
+        border-color: #238686;
+        border-style: solid;
+        width: 160px;
+        float: center;
+       
+    }
+
+    .t_input_ssn{
+        border-color: #238686;
+        border-style: solid;
+        width: 120px;
+
+    }
+
+    .t_input_relationship{
+        border-color: #238686;
+        border-style: solid;
+        width: 160px;
+
+    }
+
+    .t_input_bdate{
+        border-color: #238686;
+        border-style: solid;
+        width: 95px;
+
+    }
+
+    .t_input_age{
+        border-color: #238686;
+        border-style: solid;
+        width: 80px;
+
+    }
+
+    .t_input_sex{
+        border-color: #238686;
+        border-style: solid;
+        width: 80px;
+    }
+
+              /* Ended input styling  */
+
+input:hover{
+    cursor:pointer;
+    border-color:#238686;
+    border-style: solid;
+}
+

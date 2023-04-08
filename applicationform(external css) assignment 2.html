@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="applicationform.css">
+</head>
+
+<body bgcolor="d9ecfc">
+   <h1>Application Form</h1>
+   <form>
+      <h3> &nbsp; A. General Questions</h3>
+      <label for="Pin">Proposed Insured's Name :</label>
+      <input type="text" name="Proposed Insured's Name " placeholder="Proposed Insured's Name" id="Pin" size="29">
+      <label> <br>(please use capiatal words)</label>
+      <br> <br>
+      <label for="birth">Birth Date : </label>
+      <input type="date" name="Birth date" id="birth">
+      &nbsp;&nbsp;
+      <label class="gender_box" for="gender">Gender : </label>
+      <input class="gender_box" type="radio" name="gender" id="male">
+      <label class="gender_box" for="male">Male</label> &nbsp;
+      <input class="gender_box" type="radio" name="gender" id="female">
+      <label class="gender_box" for="female">Female</label>
+      <br> <br>
+      <label for="address">Adress: </label>
+      <input type="text" name="adress" id="address" size="125" placeholder="Enter Your Adress">
+      <br><br>
+      <label for="pnum">Phone Number:</label>
+      <input type="tel" name="Telephone number" id="pnum" maxlength="11" required="required" placeholder="0300-0000000">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="email">Email Adress:</label>
+      <input type="email" name="Email" id="email" placeholder="example@gmail.com">
+      <br> <br>
+      <label for="idnum">ID Number: </label>
+      <input type="number" name="Id number" id="idnum" placeholder="Enter ID Number"> &nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <label for="socialnum">Social Number: </label>
+      <input type="number" name="social number" id="socialnum" placeholder="Enter Social Number">
+      <br><br>
+      <label for="status">Status: </label>
+      <input type="radio" name="status" id="single">
+      <label for="single">Single</label> &nbsp;&nbsp;
+      <input type="radio" name="status" id="married">
+      <label for="married">Married</label> &nbsp;&nbsp;
+      <input type="radio" name="status" id="devorced">
+      <label for="devorced">Devorced</label> &nbsp;&nbsp;
+      <input type="radio" name="status" id="others">
+      <label for="others">Others</label> &nbsp;&nbsp;
+
+      <br><br>
+      <label for="occup">Occupation:</label>
+      <input type="text" name="occupation" id="occup" placeholder="Your Occupation">
+      &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+      <label for=" are you retire">Are You a Retire ? </label> &nbsp;
+      <input type="radio" name="are you retire" id="yes">
+      <label for="yes">Yes</label>
+      <input type="radio" name="are you retire" id="no">
+      <label for="no">No</label>
+
+      <!--  Section B -->
+      <h3> &nbsp; B. Type Of Health Coverage</h3>
+
+      <table class="table1">
+         <tr>
+            <td>
+               <center>
+                  <label for="employe">Employee:</label>
+                  <input type="radio" name="employee" id="yes2">
+                  <label for="yes2">Yes</label>
+                  <input type="radio" name="employee" id="no2">
+                  <label for="no2">No</label>
+                  <br>
+                  <label>Plan Choice</label>
+               </center>
+            </td>
+
+            <td>
+               <center>
+                  <label for="spouse">Spouse:</label>
+                  <input type="radio" name="spouse" id="yes3">
+                  <label for="yes3">Yes</label>
+                  <input type="radio" name="spouse" id="no3">
+                  <label for="no3">No</label>
+                  <br>
+                  <label>Plan Choice</label>
+               </center>
+            </td>
+
+
+
+            <td>
+               <center>
+                  <label for="children">Children:</label>
+                  <input type="radio" name="children" id="yes4">
+                  <label for="yes4">Yes</label>
+                  <input type="radio" name="children" id="no4">
+                  <label for="no4">No</label>
+                  <br>
+                  <label>Plan Choice</label>
+               </center>
+            </td>
+         </tr>
+      </table>
+      <p>Complete if Spouse/Children are Proposed For Insurance :</p>
+      <!--  Table 2 -->
+      <table class="table2">
+         <tr>
+            <th>
+               Name
+            </th>
+            <th>SSN No.</th>
+            <th>Relationship To <br>Proposed Insured</th>
+            <th>Birth <br> Date</th>
+            <th>Age</th>
+            <th>Sex</th>
+
+         </tr>
+         <center>
+            <tr>
+               <td>
+                  <center>
+                     <input class="t_input_name">
+                  </center>
+               </td>
+               <td>
+                  <center>
+                     <input class="t_input_ssn">
+                  </center>
+               </td>
+               <td>
+                  <center>
+                     <input class="t_input_relationship">
+                  </center>
+               </td>
+               <td>
+                  <center>
+                     <input class="t_input_bdate">
+                  </center>
+               </td>
+               <td>
+                  <center>
+                     <input class="t_input_age">
+                  </center>
+
+               </td>
+               <td>
+                  <center>
+                     <input class="t_input_sex">
+                  </center>
+               </td>
+
+            </tr>
+            <!-- tabe 2 row 2 -->
+
+            </tr>
+            <center>
+               <tr>
+                  <td>
+                     <center>
+                        <input class="t_input_name">
+                     </center>
+                  </td>
+                  <td>
+                     <center>
+                        <input class="t_input_ssn">
+                     </center>
+                  </td>
+                  <td>
+                     <center>
+                        <input class="t_input_relationship">
+                     </center>
+                  </td>
+                  <td>
+                     <center>
+                        <input class="t_input_bdate">
+                     </center>
+                  </td>
+                  <td>
+                     <center>
+                        <input class="t_input_age">
+                     </center>
+
+                  </td>
+                  <td>
+                     <center>
+                        <input class="t_input_sex">
+                     </center>
+                  </td>
+
+               </tr>
+
+
+               <!-- table 2 row 3 -->
+
+               </tr>
+               <center>
+                  <tr>
+                     <td>
+                        <center>
+                           <input class="t_input_name">
+                        </center>
+                     </td>
+                     <td>
+                        <center>
+                           <input class="t_input_ssn">
+                        </center>
+                     </td>
+                     <td>
+                        <center>
+                           <input class="t_input_relationship">
+                        </center>
+                     </td>
+                     <td>
+                        <center>
+                           <input class="t_input_bdate">
+                        </center>
+                     </td>
+                     <td>
+                        <center>
+                           <input class="t_input_age">
+                        </center>
+
+                     </td>
+                     <td>
+                        <center>
+                           <input class="t_input_sex">
+                        </center>
+                     </td>
+
+                  </tr>
+                  <!-- table 2 row 4 -->
+
+
+                  </tr>
+                  <center>
+                     <tr>
+                        <td>
+                           <center>
+                              <input class="t_input_name">
+                           </center>
+                        </td>
+                        <td>
+                           <center>
+                              <input class="t_input_ssn">
+                           </center>
+                        </td>
+                        <td>
+                           <center>
+                              <input class="t_input_relationship">
+                           </center>
+                        </td>
+                        <td>
+                           <center>
+                              <input class="t_input_bdate">
+                           </center>
+                        </td>
+                        <td>
+                           <center>
+                              <input class="t_input_age">
+                           </center>
+
+                        </td>
+                        <td>
+                           <center>
+                              <input class="t_input_sex">
+                           </center>
+                        </td>
+
+                     </tr>
+
+
+
+
+      </table>
+
+
+      <!-- section c -->
+      <h3> &nbsp;C. The Policy</h3>
+      <label for="unit">Units : </label>
+      <input type="tel" name="units" id="unit" placeholder="Enter Units" size="50">
+      &nbsp;&nbsp;&nbsp;
+      <label for:"anpremium">Annual Premium : </label>
+      <input type="tel" name="annual premium" id="anpremium" size="50">
+      <br><br>
+      <label for="pmode">Payment Mode : </label>
+      <input type="radio" name="pmode" id="ann">
+      <label for="ann">Annual</label> &nbsp; &nbsp;
+      <input type="radio" name="pmode" id="s-ann">
+      <label for="s-ann">Semi-Annual</label> &nbsp; &nbsp;
+      <input type="radio" name="pmode" id="mpat">
+      <label for="mpat">Monthly PAT (compete pat card)</label>
+      <br><br>
+      <label for="cash">Cash With Application : $ </label>
+      <input type="text" name="cashwithapplicaation" id="cash" size="110">
+      <br><br>
+      <label for="pmodal">Plan Model Premium : $</label>
+      <input type="text" name="plan modal premium" id="pmodal" size="111">
+
+      <h3> &nbsp;Terms And Conditions</h3>
+      <p> Improvement should me measured regulalrly and assessed in <br> order for you to know what's beneficial and
+         what's not.This will <br> help you set new targets.</p>
+
+      <label for="sign">Signature </label>
+      <input type="text" name="sign" id="sign" required="required" placeholder="Your Signature">
+
+      <label for="date">Date</label>
+      <input type="date" name="" id="date">
+   </form>
+
+
+</body>
+
+</html>
